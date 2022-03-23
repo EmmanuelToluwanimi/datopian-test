@@ -1,0 +1,21 @@
+{
+  "name": "data-wrangling-challenge",
+  "title": "Data Wrangling Challenge",
+  "description": "A script to get normalized CSV data file of Road Safety Facts and Figures in the EU.",
+  "profile": "tabular-data-package",
+  "homepage": "https://github.com/EmmanuelToluwanimi/datopian-test",
+  "contributors": [
+    {
+      "title": "Amusan T. Emmanuel",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "Data-wrangling",
+    "webscraping",
+    "nodejs",
+    " csv",
+    "tabular-data-package",
+    "csv"
+  ]
+}
