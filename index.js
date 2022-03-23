@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const writeStream = fs.createWriteStream('data.csv')
 
-writeStream.write(` Country, Year, Area, Population, GDP per capita, Population density, Vehicle ownership, Total road deaths, Road deaths per Million Inhabitants\n`)
+writeStream.write(`Country,Year,Area,Population,GDP per capita,Population density,Vehicle ownership, Total road deaths,Road deaths per Million Inhabitants\n`)
 
 https.get('https://en.wikipedia.org/wiki/Road_safety_in_Europe', (resp) => {
     let data = '';
