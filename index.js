@@ -44,7 +44,7 @@ function scrapeData(html) {
     const sortData = table.slice(1).sort((a, b) => a.road_deaths_per_mil.localeCompare(b.road_deaths_per_mil))
 
     sortData.forEach(x => {
-        writeStream.write(`${x.countries}, ${x.year}, ${x.area}, ${x.population}, ${x.gdp}, ${x.population_density}, ${x.vehicle_ownership}, ${x.total_road_deaths}, ${x.road_deaths_per_mil}\n`)
+        writeStream.write(`${x.countries}, ${x.year}, ${x.area.replace(/\,/g,'')}, ${x.population.replace(/\,/g,'')}, ${x.gdp.replace(/\,/g,'')}, ${x.population_density.replace(/\,/g,'')}, ${x.vehicle_ownership.replace(/\,/g,'')}, ${x.total_road_deaths.replace(/\,/g,'')}, ${x.road_deaths_per_mil.replace(/\,/g,'')}\n`)
     })
 
     console.log("successful operation");
