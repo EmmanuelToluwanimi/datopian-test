@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/EmmanuelToluwanimi/datopian-test/issues"
   },
-  "homepage": "https://github.com/EmmanuelToluwanimi/datopian-test#readme"
+  "homepage": "https://github.com/EmmanuelToluwanimi/datopian-test#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  }
 }
