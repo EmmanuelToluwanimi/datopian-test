@@ -16,6 +16,12 @@ Clone the repo into your PC
 git clone https://github.com/EmmanuelToluwanimi/datopian-test.git
 ```
 
+## INSTALLATION:
+Run
+```
+npm  install
+```
+
 ## USE:
 Make sure you are in the Project root folder. Then **Run**
 ```
