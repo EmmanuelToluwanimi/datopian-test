@@ -6,14 +6,14 @@ The project contains a script to generate normalized CSV data file of Road Safet
 Source: [Wikipedia - Road_safety_in_Europe](https://en.wikipedia.org/wiki/Road_safety_in_Europe).
 
 ## LINKS:
-Github repo link: [https://github.com/EmmanuelToluwanimi/o4p-sdk.git](https://github.com/EmmanuelToluwanimi/o4p-sdk.git)
+Github repo link: [https://github.com/EmmanuelToluwanimi/datopian-test.git](https://github.com/EmmanuelToluwanimi/datopian-test.git)
 
 Hosted CSV data file: [https://emmanueltoluwanimi.github.io/datopian-test/data.csv](https://emmanueltoluwanimi.github.io/datopian-test/data.csv)
 
 ## CLONE:
 Clone the repo into your PC
 ```
-git clone https://github.com/EmmanuelToluwanimi/o4p-sdk.git
+git clone https://github.com/EmmanuelToluwanimi/datopian-test.git
 ```
 
 ## USE:
